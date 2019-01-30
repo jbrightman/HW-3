@@ -1,0 +1,22 @@
+/* Jameson Brightman HW 3 */
+
+using system;
+
+class HomeWork3
+
+static void main()
+{
+    counsole.write("a = ");
+    string line = Console.ReadLine();
+    int a = int.parse(line);
+    
+    console.write("b = ");
+    line= console.ReadLine();
+    int b = int.parse(line);
+    
+    console.write("c = ");
+    line = console.ReadLine();
+    int c = int parse.ReadLine();
+    
+    console.writeline("{0} + {1} + {2} = {3}", a, b, c, a + b + c);
+}
